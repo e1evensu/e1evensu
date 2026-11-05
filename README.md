@@ -4,15 +4,33 @@
 
 **Security Researcher · AI × Offensive Security**
 
-*Building autonomous pentest agents and LLM-driven vulnerability intelligence.*
+*Building agent runtimes that can be trusted with real attack surface.*
 
-🛡️ AI red-teaming · Agent security · Code auditing (Java/Go/PHP) · Attack-surface recon
+🛡️ AI red-teaming · Agent runtime security · Code auditing (Java / Go / PHP) · Attack-surface recon
 
 📫 su@suuuuai.space
 
 </div>
 
 ---
+
+## 🔭 Now
+
+Two lines, both in active development. Both private — the work is real, the repos aren't.
+
+**horizon** — 单主 Agent 安全探索运行时。可追溯输入、可回读证据、可修订判断；用真实任务结果与成本检验价值，而不是用 benchmark 分数自我证明。基于 Pi SDK。
+
+**loom** — 织序：供工具与 Agent 消费的语义数据基座。把资产、情报、证据组织成可被 Agent 检索与推理的结构，而不是再叠一层工作台。
+
+## 🧭 What I work on
+
+| Area | Angle |
+|------|-------|
+| **Autonomous pentest agents** | 从"能跑通"到"能被信任"：证据链、可回读、可反驳 |
+| **Agent runtime security** | prompt injection、tool abuse、权限边界、执行隔离 |
+| **Vulnerability intelligence** | 结构化源 → LLM 深度分析 → 可执行结论，而不是摘要堆砌 |
+| **Code auditing** | Java / Go / PHP 白盒，0day 与逻辑缺陷 |
+| **Attack-surface recon** | OSINT · 资产测绘 · 指纹与暴露面收敛 |
 
 ## 🧰 Tech Stack
 
@@ -24,29 +42,12 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-## 📊 GitHub Stats
+## 📝 Note
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=e1evensu&show_icons=true&theme=vue&hide_rank=false&count_private=false" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=e1evensu&layout=compact&theme=vue&count_private=false" />
-</p>
-
-> Most of my work lives in private repos — the stats above reflect public activity only.
-
-## 🚀 Featured Projects
-
-| Project | What it is |
-|---------|-----------|
-| [**intelligence-system**](https://github.com/e1evensu/intelligence-system) | AI 驱动的漏洞情报平台 — GHSA 爬取 · LLM 深度分析 · 每日简报 · OSS 推送 |
-| [**xpentest**](https://github.com/e1evensu/xpentest) | 平台级自主渗透测试 Agent（黑盒 / 灰盒 / 白盒协同编排） |
-| [**blackrange**](https://github.com/e1evensu/blackrange) | 在线攻防（CTF/AWD）训练靶场控制面 |
-| [**draco-fusion**](https://github.com/e1evensu/draco-fusion) | 本地多模型代码审查与 LLM 网关原型 |
-| [**aitd**](https://github.com/e1evensu/aitd) | 可部署的 AI 交易 Agent（OKX / Binance / Bybit） |
-| [**sec-platform**](https://github.com/e1evensu/sec-platform) | 资产情报与漏洞研究工作区 · OSINT · 资产测绘 · 代码审计 |
-
-## ⭐ Star Lists
-
-Curated by topic: **AI 渗透 Agent · 代码审计 · 信息收集 · AI 安全**
+> 这里几乎看不到代码，是因为工作都在私有仓库里。
+> 上面写的方向是正在跑的，不是路线图。
+>
+> 历史项目（漏洞情报平台、xp-security、sec-platform）已归档。它们留下的失败证据比代码本身更有价值——现在是我做设计时的约束条件。
 
 ---
 
