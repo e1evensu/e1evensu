@@ -12,10 +12,9 @@
 
 ## 关于
 
-我关注 AI 与攻击性安全的交叉点：自主渗透 Agent、Agent 运行时安全、代码审计（Java / Go / PHP）。
+做 AI 与攻击性安全：自主渗透 Agent、Agent 运行时、代码审计（Java / Go / PHP）。
 
 ## 在做什么
 
-**horizon** — 单主 Agent 安全探索运行时。可追溯输入、可回读证据、可修订判断。
-
-**loom** — 织序。供工具与 Agent 消费的语义数据基座，把材料、命题、证据组织成可被检索与推理的结构。
+- **horizon** — 长任务安全探索 Agent 运行时（TypeScript / Pi SDK）。围绕真实证据采集、HTTP 流量差分与指纹识别、条件化认识演进（Frame / Claim / Gap）和子会话协作构建，接入 Terminal-Bench / Harbor 与安全评估赛事扩展。
+- **loom（织序）** — 面向工具与 Agent 的语义数据基座（Go / React / PostgreSQL / Kafka）。将原始材料（CAS）、Case、命题、证据定位与评估沉淀为可追溯版本，统一调度直接模型分析、Pi 工具补查（`web_fetch` / `git`）与定时情报触发（Scheduler）。
